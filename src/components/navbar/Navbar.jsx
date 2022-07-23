@@ -27,16 +27,21 @@ const Navbar = () => {
                             Sed a mi pretium, posuere sem et, malesuada mauris. Vivamus ac sapien vel lectus cursus maximus vel vitae lacus. Praesent elementum mauris iaculis massa fringilla, vitae consequat turpis ullamcorper. Integer commodo sit amet massa id porta. Ut vehicula varius dui, sit amet semper mi malesuada vel. Nunc euismod sapien leo, sodales viverra ipsum lacinia venenatis. Mauris ac nunc neque. Nulla sed eros purus. Nullam non convallis justo, sit amet semper lorem. Maecenas sit amet tellus posuere, sollicitudin quam eu, sagittis lacus.<br /><br />
 
                             Curabitur commodo congue consectetur. Maecenas condimentum ligula nunc, id varius tortor dictum vel. Vestibulum nisl nisl, laoreet sit amet aliquet eget, laoreet vel eros. Nulla facilisi. Sed sollicitudin augue vitae ligula ullamcorper, et fermentum felis egestas. Fusce egestas lacus ex, eu vulputate risus dapibus et. Cras et elementum augue. Suspendisse sit amet tristique libero. </p>
-                    </div>
-                </TabPane>
-                <TabPane tab="Tab 2" key="2">
-                    Content of Tab Pane 2
-                </TabPane>
-                <TabPane tab="Tab 3" key="3">
-                    Content of Tab Pane 3
-                </TabPane>
-            </Tabs>
-        </div>
+                        <iframe
+                            src="https://www.youtube.com/embed/HhIl_XJ-OGA"
+                            className={styles.tabVideo}
+                        ></iframe>
+                    
+                </div>
+            </TabPane>
+            <TabPane tab="Tab 2" key="2">
+                Content of Tab Pane 2
+            </TabPane>
+            <TabPane tab="Tab 3" key="3">
+                Content of Tab Pane 3
+            </TabPane>
+        </Tabs>
+        </div >
 
     )
 }
