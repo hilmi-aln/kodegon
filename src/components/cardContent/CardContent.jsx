@@ -12,7 +12,7 @@ const CardContent = ({ cards }) => {
           return (
             <div className={styles.card} key={index}>
               <div className={styles.cardImg}>
-                <img src={asd} alt="example" />
+                <img src={card.img} alt="example" />
               </div>
               <div className={styles.cardContent}>
                 <div className={styles.cardTitleInfo}>

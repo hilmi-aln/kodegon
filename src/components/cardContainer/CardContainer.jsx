@@ -5,14 +5,14 @@ import styles from './CardContainer.module.css';
 const CardContainer = () => {
     const cards = [
         {
-            img:"http://localhost:3000/static/media/asd.efe1d1cae698fbd7cdfc.png",
+            img:"../../assets/images/asd.png",
             title:"lorem ipsum",
             author:"Hüsnü Toner",
             description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit magna dui, eget ultrices dui euismod in.",
             date:"10.09.2020 - 10.10.2020",
         },
         {
-            img:"http://localhost:3000/static/media/asd_1.efe1d1cae698fbd7cdfc.png",
+            img:"../../assets/images/asd_1.png",
             title:"Nulla semper metus",
             author:"Mustafa Serkan Tiryaki",
             description:"Nulla semper metus aliquam, condimentum odio vitae, sodales mauris. Donec congue leo eu libero ultricies tempor. Duis commodo lacus eget felis volutpat molestie. Sed at pharetra mauris. Ut eu lorem placerat, tempus velit in, feugiat libero.",
