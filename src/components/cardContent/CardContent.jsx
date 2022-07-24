@@ -1,6 +1,9 @@
 import styles from './CardContent.module.css';
+import asd from '../../assets/images/asd.png';
+import { ArrowRightOutlined, CalendarOutlined } from '@ant-design/icons';
+import { DatePicker } from 'antd';
 
-const CardContent = ({cards}) => {
+const CardContent = ({ cards }) => {
   return (
     <div className={styles.container}>
       <header><h1 className={styles.header}>Suspendisse Tempus</h1></header>
@@ -9,13 +12,17 @@ const CardContent = ({cards}) => {
           return (
             <div className={styles.card} key={index}>
               <div className={styles.cardImg}>
-                <img src="../../assets/images/asd_1.png" alt="resim"/>
+                <img src={asd} alt="example" />
               </div>
               <div className={styles.cardContent}>
-                <h1 className={styles.cardTitle}>{card.title}</h1>
-                <h2 className={styles.cardAuthor}>{card.author}</h2>
+                <div className={styles.cardTitleInfo}>
+                  <h3 className={styles.cardTitle}>{card.title}</h3>
+                  <p className={styles.cardAuthor}>{card.author}</p>
+                </div>
                 <p className={styles.cardDescription}>{card.description}</p>
-                <p className={styles.cardDate}>{card.date}</p>
+                <div className={styles.cardBottom}>
+                  <p className={styles.cardDate}><span><CalendarOutlined /></span>{card.date}</p><span className={styles.arrowIcon}><ArrowRightOutlined /></span>
+                </div>
               </div>
             </div>
           )
