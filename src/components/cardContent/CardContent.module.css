@@ -39,3 +39,28 @@
 .arrowIcon:hover{
     cursor: pointer;
 }
+@media screen and (max-width: 375px){
+    .card{
+        width:100vw; 
+        display: flex;
+        justify-content: space-around;
+    }
+    .cardContent{
+        width: 45vw;
+    }
+    .cardDescription{
+        display: none;
+    }
+    .cardImg{
+        width: 45vw;
+    }
+    .cardImg img{
+        min-height: 100%;
+    }
+    .cardBottom{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+    

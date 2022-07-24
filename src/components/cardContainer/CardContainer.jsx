@@ -49,7 +49,7 @@ const CardContainer = () => {
     ]
   return (
     <Row className={styles.cardContainer}>
-        <CardContent cards={cards}/>
+        <CardContent cards={cards} />
     </Row>
   )
 }

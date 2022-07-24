@@ -1,13 +1,13 @@
 import styles from './CardContent.module.css';
 import asd from '../../assets/images/asd.png';
 import { ArrowRightOutlined, CalendarOutlined } from '@ant-design/icons';
-import { DatePicker } from 'antd';
+import { Col } from 'antd';
 
 const CardContent = ({ cards }) => {
   return (
-    <div className={styles.container}>
+    <Col className={styles.container} >
       <header><h1 className={styles.header}>Suspendisse Tempus</h1></header>
-      <div className={styles.cardContainer}>
+      <div className={styles.cardContainer} lg={6} xs={24}>
         {cards.map((card, index) => {
           return (
             <div className={styles.card} key={index}>
@@ -28,7 +28,7 @@ const CardContent = ({ cards }) => {
           )
         })}
       </div>
-    </div>
+    </Col>
   )
 }
 

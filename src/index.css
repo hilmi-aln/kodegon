@@ -10,6 +10,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.ant-tabs-tab-btn{
+  font-size: 19px;
+}
 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
   color: #363636 !important; 
 }
@@ -21,4 +24,14 @@ code {
 .ant-tabs-tab-btn{
   text-shadow: #F2F2F2 !important;
   color: #7F7F7F !important;
+}
+@media screen and (max-width: 375px){
+  .ant-tabs-nav-list{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+  .ant-tabs-tab-btn{
+    font-size: 16px;
+  }
 }
