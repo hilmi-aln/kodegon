@@ -11,7 +11,7 @@
     flex-wrap: wrap;
 }
 .card{
-    width: 21vw;
+    width: calc(25vw - 38px);
     height: fit-content;
     margin: 1rem;
     border: 1px solid  rgba(0, 0, 0, 0.15);
