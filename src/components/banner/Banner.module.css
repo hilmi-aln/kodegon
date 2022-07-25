@@ -1,19 +1,51 @@
-.bannerContainer{
-    width: 100%;
-    margin: 0;
+.bannerContainer {
+  width: 100%;
+  margin: 0;
 }
-.Banner{
-    width: 100%;
-    height: 60vh;
+.Banner {
+  width: 100%;
+  height: 60vh;
+  margin-bottom: -5rem;
 }
-@media screen and (max-width: 375px){
-    .bannerContainer{
-        display: flex;
-        justify-content: center;
-    }
-    .Banner{
-        width: 90vw;
-        height: 450px;
-    }
+.slider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8vw;
 }
-    
+.leftArrow {
+  margin: 0 1rem 0 3rem;
+  color: white;
+}
+.leftArrow:hover {
+  cursor: pointer;
+}
+.rightArrow {
+  margin: 0 1rem;
+  color: white;
+}
+.rightArrow:hover {
+    cursor: pointer;
+  }
+.emptySquire {
+  border: 1px solid white;
+  width: 10px;
+  height: 10px;
+  margin: 0 1rem;
+}
+.filledSquire {
+  border: 1px solid white;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  margin: 0 1rem;
+}
+@media screen and (max-width: 375px) {
+  .bannerContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .Banner {
+    width: 90vw;
+    height: 450px;
+  }
+}
