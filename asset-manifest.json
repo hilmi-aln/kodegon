@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kodegon/static/css/main.002e67e5.css",
+    "main.js": "/kodegon/static/js/main.14e6d33d.js",
+    "static/media/Banner.png": "/kodegon/static/media/Banner.4e56aee21a5ccb0ee94c.png",
+    "index.html": "/kodegon/index.html",
+    "main.002e67e5.css.map": "/kodegon/static/css/main.002e67e5.css.map",
+    "main.14e6d33d.js.map": "/kodegon/static/js/main.14e6d33d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.002e67e5.css",
+    "static/js/main.14e6d33d.js"
+  ]
+}
