@@ -1,5 +1,4 @@
 import styles from './CardContent.module.css';
-import asd from '../../assets/images/asd.png';
 import { ArrowRightOutlined, CalendarOutlined } from '@ant-design/icons';
 import { Col } from 'antd';
 

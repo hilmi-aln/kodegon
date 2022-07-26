@@ -1,12 +1,13 @@
 import styles from './Banner.module.css';
 import banner from "../../assets/images/Banner.png";
-import { ArrowLeftOutlined, ArrowRightOutlined, LineOutlined } from '@ant-design/icons';
+import { ArrowLeftOutlined, ArrowRightOutlined } from '@ant-design/icons';
 import { useState } from 'react';
 
 const Banner = () => {
+  //slider state
   const [current, setCurrent] = useState(0);
-  const [total, setTotal] = useState(4);
-
+  const total = 4;
+  //when left arrow is clicked, function is called
   const leftClick = () => {
     if (current === 0) {
       setCurrent(total);
@@ -14,6 +15,7 @@ const Banner = () => {
       setCurrent(current - 1);
     }
   }
+  //when right arrow is clicked, function is called
   const rightClick = () => {
     if (current === total) {
       setCurrent(0);
@@ -21,6 +23,7 @@ const Banner = () => {
       setCurrent(current + 1);
     }
   }
+  //when the slider squire is clicked, function is called and squire and cuurent state are updated
   const handleClick = (e) => {
     setCurrent(Number(e.target.id));
   }
